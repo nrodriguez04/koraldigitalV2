@@ -1,5 +1,12 @@
+import Links from './links/Links'
+
 export default function Navigation() {
   return (
-    <div>Navigation</div>
+    <div>
+        <div>Logo</div>
+        <div>
+            <Links />
+        </div>
+    </div>
   )
 }
